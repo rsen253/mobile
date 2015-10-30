@@ -1,0 +1,601 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+li>a{
+    text-transform: uppercase;
+}
+.features .container .left-features .item-feature .content h4
+{
+    text-transform: uppercase;
+}
+.modal-footer {
+
+    border-top: none;
+}
+
+.modal-header button
+{
+    color: #fff;
+}
+.close
+{
+    opacity: 1;
+}
+
+.modal-header {
+    
+     border-bottom: none; 
+}
+.nav > li.active
+{
+    background-color: #08182d;
+    -webkit-transition: 1s all ease;
+       -moz-transition: 1s all ease;
+        -ms-transition: 1s all ease;
+         -o-transition: 1s all ease;
+            transition: 1s all ease;
+}
+.nav > li > a {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 1.3em;
+    text-shadow:1px 1px 1px black;
+    -webkit-text-shadow:1px 1px 1px black;
+    -moz-text-shadow:1px 1px 1px black;
+    -o-text-shadow:1px 1px 1px black;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+    background-color: transparent;
+}
+
+.navbar-default
+{
+    box-shadow: none;
+    background-color: transparent;
+    border: none;
+    min-height: 90px;
+    padding-top: 20px;
+    -webkit-transition: 1s all ease;
+   -moz-transition: 1s all ease;
+    -ms-transition: 1s all ease;
+     -o-transition: 1s all ease;
+        transition: 1s all ease;
+}
+body > section
+{
+    clear: both;
+    padding-top: 58px;
+    
+}
+section#slider
+{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e3d5a+0,0c223b+100 */
+background: #1e3d5a; /* Old browsers */
+background: -moz-linear-gradient(top,  #1e3d5a 0%, #0c223b 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e3d5a), color-stop(100%,#0c223b)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #1e3d5a 0%,#0c223b 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #1e3d5a 0%,#0c223b 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #1e3d5a 0%,#0c223b 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #1e3d5a 0%,#0c223b 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e3d5a', endColorstr='#0c223b',GradientType=0 ); /* IE6-9 */
+
+}
+section#slider .carousel-inner div.carousel-caption h2,
+section#support h2
+{
+    color: #ffffff;
+    text-shadow: 3px 3px black;
+    -moz-text-shadow: 3px 3px black;
+    -webkit-text-shadow: 3px 3px black;
+}
+section#support p
+{
+    color: #FFFFFF;
+}
+section#slider .carousel-inner div.carousel-caption h2:after,
+section#support h2:after
+{
+    content: "";
+    height: 5px;
+    width: 40px;
+    background-color: #FFFFFF;
+    display: block;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+.carousel-indicators .active
+{
+    background-color: #5cb85c;
+}
+.effect
+{
+    background-color: #123156;
+    min-height: 30px;
+    box-shadow: 0 0 10px black;
+    padding-top: 0;
+
+    
+    
+    
+    
+}
+header .navbar-header i
+{
+    color: #FFFFFF;
+    font-size: 3em;
+}
+h2,h3
+{
+    color: #15365B;
+    margin-bottom: 30px;
+}
+h4
+{
+    color: #15365B;
+}
+h2:after,
+h3:after
+{
+    content: "";
+    height: 5px;
+    width: 40px;
+    background-color: #15365B;
+    display: block;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+.blue-circle
+{
+    width: 100%;
+    padding-bottom: 100%;
+    background-color: #15365B;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius : 50%;
+    margin: 0 auto;
+}
+#about .blue-circle
+{
+    width: 50%;
+    padding-bottom: 50%;
+}
+.blue-circle div
+{
+    float: left;
+    width: 100%;
+    padding-top: 42%;
+    line-height: 1em;
+    margin-top: -0.5em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.blue-circle div i
+{
+    font-size: 3em;
+}
+section#features .blue-circle div i
+{
+    font-size: 2em;
+}
+section#features
+{
+    background-color: #F5F5F5;
+}
+.item-feature
+{
+    margin-bottom: 30px;
+}
+section#parallax
+{
+    height: 500px;
+    background-image: url(../img/parallax.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h2.parallax.text-center
+{
+    font-size: 3.6em;
+    color: #FFFFFF; 
+    font-weight: 700;
+    text-shadow: 0px 7px 8px black;
+    -moz-text-shadow: 0px 7px 8px black;
+    -webkit-text-shadow: 0px 7px 8px black;
+}
+h2.parallax.text-center:after
+{
+    display: none;
+}
+section#download
+{
+    padding-bottom: 0;
+}
+section#download .cotent-downloades
+{
+    height: 700px;
+    position: relative;
+    
+}
+section#download div.phone
+{
+    position: relative;
+    width: 50%;
+    float: left;
+    height: 100%;
+    -webkit-box-shadow: inset -2px -6px 30px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset -2px -6px 30px 0px rgba(0,0,0,0.75);
+    box-shadow: inset -2px -6px 30px 0px rgba(0,0,0,0.75);
+}
+section#download div.phone img
+{
+    position: absolute;
+    bottom: 0;
+}
+section#download .downloads-empty
+{
+    width: 50%;
+    float: right;
+    background-color: #FDFDFD;
+    height: 100%;
+    z-index: 2;
+    background-image: url(../img/iphonesoft-iphone6c.jpg);
+    background-repeat: no-repeat;;
+    background-position: bottom right;
+}
+section#download .download
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 50px;
+}
+section#download .platforms > div
+{
+    border-radius: 20px;
+    border: 3px solid #15365B;
+    padding: 11px 0;
+    font-size: 1.2em; 
+    position: relative;
+    padding-left: 50px;
+    color: #15365B
+}
+
+section#download .platforms i
+{
+    font-size: 2.5em;
+    position: absolute;
+    left: 20px;
+    top: 12px;
+}
+section#support
+{
+background-color: #1A3D61;
+margin-bottom: 0px;
+color: #FFFFFF;
+}
+section#support input,
+section#support textarea
+{
+    min-height: 50px;
+    margin-bottom: 20px;
+    background-color:  #1A3D61;
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    color: #FFFFFF;
+}
+section#support textarea
+{
+    min-height: 200px;
+}
+section#support input.btn
+{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 5px 50px;
+    font-size: 1.4em;
+    color: #1A3D61;
+}
+:moz-placeholder
+{
+    color: #FFFFFF!important;
+}
+::moz-placeholder
+{
+    color: #FFFFFF!important;
+}
+::-webkit-input-placeholder
+{
+    color: #FFFFFF!important;
+}
+:-ms-input-placeholder
+{
+    color: #FFFFFF!important;
+}
+footer p
+{
+    background-color: #102745;
+    padding: 10px 0;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+/*Amimations*/
+.animation1,
+.animation2,
+.animation3
+{
+    opacity: 0;
+}
+.animation1
+{
+    
+}
+.animation2
+{
+    animation-delay: .3s;
+    -webkit-animation-delay: .3s;
+    -moz-animation-delay: .3s;
+    -ms-animation-delay: .3s;
+     -o-animation-delay: .3s;
+}
+.animation3
+{
+    animation-delay: .6s;
+    -webkit-animation-delay: .6s;
+    -moz-animation-delay: .6s;
+    -ms-animation-delay: .6s;
+     -o-animation-delay: .6s;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+    background-color: #112741;
+}
+.navbar-default .navbar-toggle:hover {
+    background: transparent;
+}
+.navbar-default .navbar-toggle:focus {
+   background-color: #112741;
+}
+.navbar-default .navbar-toggle .icon-bar
+{
+    background-color: #FFF;
+}
+
+#about .blue-circle,
+.blue-circle
+{
+    width: 40%;
+    padding-bottom: 40%;
+}
+.feature-image
+{
+    text-align: center;
+}
+section#features h4,
+section#features p{
+    text-align: center;
+}
+section#download .cotent-downloades
+{
+    height: 600px;
+}
+section#download .download
+{
+    top: 600px;
+    z-index: 10;
+}
+section#download div.phone,
+section#download .downloads-empty
+{
+    width: 100%;
+}
+section#download .downloads-empty
+{
+    position: relative;
+}
+section#download .animation3
+{
+    animation-delay: .3s;
+    -webkit-animation-delay: .3s;
+    -moz-animation-delay: .3s;
+    -ms-animation-delay: .3s;
+     -o-animation-delay: .3s;
+}
+section#download .platforms > div
+{
+    margin-bottom: 10px;
+}
+section#download .platforms i{
+    top: 2px;
+}
+section#parallax {
+    background-attachment: scroll;
+}
+}
+
+@media (min-width: 768px) {
+    
+}
+@media (min-width: 992px) {
+    
+}
+@media (min-width: 1200px) {
+    
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
